@@ -1,0 +1,27 @@
+{
+  "name": "skillselling",
+  "version": "1.0.0",
+  "description": "the website for 94 onesite",
+  "main": "index.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "what"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoEatle/SkillSelling.git"
+  },
+  "keywords": [
+    "skill",
+    "sell"
+  ],
+  "author": "LeoEatle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoEatle/SkillSelling/issues"
+  },
+  "homepage": "https://github.com/LeoEatle/SkillSelling#readme"
+}
