@@ -1,1 +1,152 @@
-    
+@import "../../node_modules/amazeui/less/variables";
+@import "../../node_modules/amazeui/less/mixins";
+
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.ask-page {
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.ask-header {
+  margin-bottom: 0;
+}
+
+.ask-main {
+  flex: 1;
+}
+
+.ask-banner {
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ask-footer {
+  background-color: @gray;
+  color: @gray-light;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  p {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+}
+
+.categories{
+  text-align: center;
+  li{
+    text-align: center;
+  }
+}
+
+.am-menu-nav-flex{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.content{
+
+}
+
+.buy_content{
+  border: 1px solid;
+  padding: 1em;
+  margin-top: 40px;
+}
+
+@media (min-width:768px){
+  .menu{
+    margin:auto;
+  }
+
+}
+
+.welcome_style{
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 20em;
+  color: whitesmoke;
+  background-image: url('../i/kongge/index1.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  h1, h2{
+    line-height: 5em;
+  }
+}
+
+.taolu_content{
+  padding-bottom: 2em;
+}
+
+//使展示图的文字居中
+.productInstance{
+  p{
+    text-align: center;
+  }
+  img{
+    width: 155px;
+    height: 155px;
+  }
+  h3{
+    text-align: center;
+  }
+}
+
+.slideBar{
+  padding: 0px;
+}
+
+.page-header,
+.chart_title{
+  h1{
+    border-left: 10px solid orange;
+    padding-left: 10px;
+
+  }
+}
+
+.chart_list{
+  line-height: 2.5em;
+  height: 2.5em;
+  list-style-type: none;
+  margin-top: 5px;
+  border-bottom: 1px solid #e6e6e6;
+
+}
+
+.delete_button{
+  float: right;
+}
+.chart_price{
+  float: right;
+  margin-right: 60px;
+}
+
+.price_head{
+  float: right;
+  margin-right: 60px;
+}
+.total_price{
+  border: 1px dashed orange;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  margin: 10px;
+}
+.pay_button{
+  width: 80%;
+  margin-left: 2em;
+}
